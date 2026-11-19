@@ -1,0 +1,3 @@
+# Quebras de linha LF no repositório (o build roda em Linux no GitHub Actions)
+* text=auto eol=lf
+*.png binary

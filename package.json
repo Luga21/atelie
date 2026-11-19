@@ -1,0 +1,43 @@
+{
+  "name": "autoria",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Plataforma standalone de autoria de treinamentos e-learning baseada em blocos.",
+  "scripts": {
+    "build:runtime": "node scripts/build-runtime.mjs",
+    "dev": "node scripts/dev.mjs",
+    "prebuild": "npm run build:runtime",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "preview:pages": "node scripts/serve-out.mjs",
+    "icons": "node scripts/generate-icons.mjs"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "clsx": "^2.1.1",
+    "fflate": "^0.8.3",
+    "idb": "^8.0.4",
+    "immer": "^11.2.10",
+    "lucide-react": "^1.76.0",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zustand": "^5.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "esbuild": "^0.28.2",
+    "postcss": "^8.5.33",
+    "tailwindcss": "^4.3.5",
+    "typescript": "5.9"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+# Gerado por scripts/build-runtime.mjs
+public/runtime/
+# Configuração local do ambiente de desenvolvimento
+.claude/
